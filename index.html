@@ -14,7 +14,7 @@
         }
 
         div img {
-            width: 400px;
+            width: 500px;
         }
     </style>
 
@@ -28,10 +28,23 @@
             <h4>Header 4</h4>
             <h5>Header 5</h5>
         </header>
+
+        <a href="#footer">To footer</a>
         
         <hr>
 
         <div style="width: 500px;">
+            <div>
+                <input type="text" id="login">
+                <input type="password" id="password">
+                <input type="submit" id="submit">
+            </div>
+            <div>
+                
+                <input type="checkbox" id="condition">
+                <span>condition </span>
+                <input type="date" id="date">
+            </div>
             <p><b>Lorem</b> ipsum dolor sit amet consectetur <span style="font-size: 20px;">adipisicing elit.</span> Corrupti numquam rerum nisi dignissimos dicta nihil eos cum ratione impedit aspernatur fuga <i>placeat</i>, ullam totam non dolorum magni! Nemo, ipsum. Aspernatur!
             </p>
         </div>
@@ -39,21 +52,21 @@
         <hr>
 
         <div>
-            <div>
-            <a href="google.com">Google</a>
-            </div>
-
-            <img src="./img/img.jpg" title="Image">
+            <a href="google.com"><img src="./img/img.jpg" title="Image"></a>
         </div>
 
         <hr>
 
-        <iframe id="inlineFrameExample"
-        title="Inline Frame Example"
-        width="400"
-        height="300"
-        src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
-        </iframe>
+
+        <iframe 
+         id="map"
+         width="425"
+         height="350"
+         frameborder="0"
+         scrolling="no" 
+         marginheight="0" 
+         marginwidth="0" 
+         src="https://www.openstreetmap.org/export/embed.html?bbox=12.974853515625002%2C67.90313099858217%2C13.203163146972658%2C67.96214166427288&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=13/67.9327/13.0890">View Larger Map</a></small>
 
         <hr>
 
@@ -70,6 +83,8 @@
             <li>Second item</li>
             <li>Third item</li>
         </ol>
+
+        <footer id="footer">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, quam obcaecati totam deleniti enim dolorum nemo.</footer> 
     </main>
 </body>
 </html>
